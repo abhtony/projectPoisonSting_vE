@@ -155,10 +155,10 @@ p {
 }
 
 .carousel-control-next-icon {
-    background-image: url(/img/carousel/icon-right-arrow.svg);
+    background-image: url(img/carousel/icon-right-arrow.svg);
 }
 .carousel-control-prev-icon {
-    background-image: url(/img/carousel/icon-left-arrow.svg);
+    background-image: url(img/carousel/icon-left-arrow.svg);
 }
 
 
