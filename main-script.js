@@ -6,8 +6,8 @@ console.log("hello world - 0.68");
 
 function render_animation () {
     console.log("render_animation triggered");
-    ajax_call("/animation/Bloodwork_SnapSVGAnimator.json", 30, 100, 100, "bloodwork-animation");
-    ajax_call("/animation/IV.json", 30, 100, 100, "IV-animation");
+    ajax_call("animation/Bloodwork_SnapSVGAnimator.json", 30, 100, 100, "bloodwork-animation");
+    ajax_call("animation/IV.json", 30, 100, 100, "IV-animation");
 }
 
 
