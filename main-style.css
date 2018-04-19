@@ -1,0 +1,297 @@
+body {
+    background-color: #DEF5FD;
+}
+
+footer {
+    background-color: #FFFFFF;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    color: #01324C;
+    font-size: 18px;
+}
+
+.hidden-true {
+    display: none;
+}
+
+.section-container {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.main-title {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    color: #1E8BC3;
+    font-size: 30px;
+}
+
+.img-scene {
+    width: 200px;
+}
+
+
+#IV-carousel .carousel-item {
+    height: 275px;
+}
+
+.carousel-img {
+    width: 300px;
+}
+
+.carousel {
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+.section-divider {
+    background-image: url("img/line/line-white.svg");
+    background-repeat: repeat-x;
+    height: 8px;
+}
+
+.subsection-divider {
+    background-image: url("img/line/line-blue.svg");
+    background-repeat: repeat-x;
+    height: 8px;
+    margin-left: -25px;
+    margin-right: -20px;
+}
+
+.section-title {
+    font-family: 'Nunito', sans-serif;
+    font-size: 27px;
+    color: #1E8BC3;
+    font-weight: 700;
+}
+
+.section-title-caption {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    color: #1E8BC3;
+}
+
+.text-emphasis {
+    font-size: 36px;
+    color: #055580;
+    font-weight: 900;
+}
+
+.inner-container {
+    margin: 0 auto;
+    padding: 0 25px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    width: 87.5%;
+}
+
+.section-subtitle {
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    color: #034568;
+    font-weight: 700;
+}
+
+.section-subsubtitle {
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    color: #034568;
+    font-weight: 500;
+}
+
+
+.img-icon {
+    width: 100px;
+}
+
+.text-label {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #034568
+}
+
+.link-label {
+    color: #1E8BC3;
+}
+
+
+#IV-carousel {
+    width: 350px;
+    height: 300px;
+}
+
+.carousel-item p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #01324C
+}
+
+
+
+
+
+.carousel-indicators {
+    bottom: -30px;
+}
+
+.carousel-indicators li {
+    background-color: rgba(175,226,243, 0.85);
+}
+
+.carousel-indicators .active {
+    background-color: #1E8BC3;
+}
+
+.carousel-control-next-icon {
+    background-image: url(/img/carousel/icon-right-arrow.svg);
+}
+.carousel-control-prev-icon {
+    background-image: url(/img/carousel/icon-left-arrow.svg);
+}
+
+
+
+
+
+
+
+.horizontal-list {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.horizontal-list li {
+    float: left;
+    margin: 0px 10px;
+}
+
+.btn-choice {
+    width: 100px;
+}
+
+.btn-choice.choice-unselected {
+    opacity: 0.5;
+}
+
+.btn-choice.choice-selected {
+    opacity: 1.0;
+}
+
+#choice-list-age-specific li img {
+    cursor: pointer;
+}
+
+#kangaroo-care-carousel {
+    width: 200px;
+    height: 225px;
+    text-align: center;
+    margin-left: -45px;
+}
+
+#kangaroo-care-carousel .carousel-inner {
+    height: 100%;
+}
+
+
+#figure-kangaroo-care, #figure-bear-hug, #figure-joey-position {
+    width: 100px;
+}
+
+#figure-kangaroo-care {
+    margin-right: 20px;
+}
+
+#bloodwork-IV-section svg {
+    width: 125px;
+    height: 125px;
+}
+
+.btn-choice {
+    width: 100px;
+}
+
+
+
+
+
+
+.up-space-100 {
+    margin-top: 100px;
+}
+
+.up-space-75 {
+    margin-top: 75px;
+}
+
+.up-space-50 {
+    margin-top: 50px;
+}
+
+.up-space-35 {
+    margin-top: 35px;
+}
+
+.up-space-25 {
+    margin-top: 25px;
+}
+
+.up-space-15 {
+    margin-top: 15px;
+}
+
+.up-space-5 {
+    margin-top: 5px;
+}
+
+.up-space--5 {
+    margin-top: -5px;
+}
+
+.up-space--25 {
+    margin-top: -25px;
+}
+
+.empty-50 {
+    height: 50px;
+}
+
+.empty-150 {
+    height: 150px;
+}
+
+.horizontal-margin-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-link {
+    background-color: #DEF5FD;
+    margin: 0px auto;
+    border-radius: 5px;
+    line-height: 60px;
+    width: 220px;
+    color: #1E8BC3;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.btn-link:hover {
+    color: #1E8BC3;
+    text-decoration: none;
+    background-color: #DEF5FD;
+    border-color: none;
+}

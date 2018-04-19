@@ -1,0 +1,314 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #67328F;
+    background-image: url("/survey/background.svg");
+    background-repeat: repeat;
+    background-size: 600px 600px;
+}
+
+footer {
+    background-color: #FFFFFF;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #FFF;
+}
+
+a {
+    color: #FFF;
+}
+
+p {
+    font-family: 'Assistant', sans-serif;
+    color: #1E1E1E;
+    font-size: 18px;
+    max-width: 580px;
+}
+
+h1 {
+    font-family: 'Assistant', sans-serif;
+    color: #1E1E1E;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Assistant', sans-serif;
+    color: #67328F;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.hidden-true {
+    display: none;
+}
+
+/*NAVIGATION*/
+
+.chevron-arrow-left {
+  display: inline-block;
+  border-right: 4px solid #D1D1D1;
+  border-bottom: 4px solid #D1D1D1;
+  width: 18px; height: 18px;
+  border-radius: 2px;
+  transform: rotate(-225deg);
+}
+
+.chevron-arrow-right {
+  display: inline-block;
+  border-right: 4px solid #D1D1D1;
+  border-bottom: 4px solid #D1D1D1;
+  width: 18px; height: 18px;
+  border-radius: 2px;
+  transform: rotate(-45deg);
+}
+
+
+.btn {
+    background-color: #67328F;
+    margin: 25px auto;
+    border-radius: 5px;
+    line-height: 60px;
+    width: 250px;
+}
+
+.question-choice {
+    background-color: #F4F4F4;
+    margin: 5px auto;
+    width: 400px;
+}
+
+.question-choice .btn-label {
+    color: #1E1E1E;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn-label {
+    margin-top: 4px;
+    line-height: 35px;
+    font-family: 'Assistant', sans-serif;
+    color: #FFF;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.nav-btn, .btn {
+    cursor: pointer;
+}
+
+.section-btn {
+    background-color: #D1D1D1;
+    width: 45px;
+    height: 10px;
+    border-radius: 3px;
+    margin: 10px auto;
+}
+
+.question-choice.selected {
+    background-color: #67328F;
+}
+
+.question-choice.selected .btn-label {
+    color: #FFF !important;
+}
+
+/*#section-1-btn::after { */
+/*    content: "intro";*/
+/*    margin-top: 3px;*/
+/*}*/
+
+/*#section-2-btn::after { */
+/*    content: "consent";*/
+/*}*/
+
+#top-navigation .nav-label {
+    position: absolute;
+}
+
+#section-1-btn + h5 {
+    margin-left: 5.5px;
+}
+
+#section-2-btn + h5 {
+    margin-left: -4px;
+}
+
+#section-3-btn + h5 {
+    margin-left: -18px;
+}
+
+#section-4-btn + h5 {
+    margin-left: -14px;
+}
+
+#section-5-btn + h5 {
+    margin-left: -14px;
+}
+
+/*#section-6-btn + h5 {*/
+/*    margin-left: -4px;*/
+/*}*/
+
+.nav-label {
+    font-family: 'Assistant', sans-serif;
+    color: #67328F;
+    font-size: 18px;
+    margin-top: -8px
+}
+
+.arrow-btn.active {
+    border-right: 4px solid #67328F;
+    border-bottom: 4px solid #67328F;
+}
+
+.section-btn.active {
+    background-color: #67328F;
+}
+
+.section-btn.complete {
+    background-color: #C7A9DE;
+}
+
+.horizontal-list {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.horizontal-list li {
+    float: left;
+    margin: 0px 10px;
+}
+
+#top-navigation li {
+    text-align: center
+}
+
+
+/*    background-color: rgba(255, 255, 255, 0.3);*/
+/*    margin: 25px auto;*/
+/*    border-radius: 5px;*/
+/*    line-height: 60px;*/
+/*    width: 550px;*/
+
+
+.main-container {
+    margin: 0 auto;
+    padding: 0 25px;
+    /*border-radius: 10px;*/
+    background-color: #FFFFFF;
+    width: 960px;
+    padding-top: 50px;
+    /*height: 100%;*/
+}
+
+
+
+#echo-logo {
+    width: 130px;
+    max-height: 130px;
+}
+
+
+.small-label {
+    font-family: 'Assistant', sans-serif;
+    color: #67328F;
+    font-size: 18px;
+}
+
+
+.textbox {
+    border: none;
+    border-bottom: 2.5px solid #C7A9DE;
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.up-space-100 {
+    margin-top: 100px;
+}
+
+.up-space-75 {
+    margin-top: 75px;
+}
+
+.up-space-50 {
+    margin-top: 50px;
+}
+
+.up-space-35 {
+    margin-top: 35px;
+}
+
+.up-space-25 {
+    margin-top: 25px;
+}
+
+.up-space-15 {
+    margin-top: 15px;
+}
+
+.up-space-5 {
+    margin-top: 5px;
+}
+
+.up-space--5 {
+    margin-top: -5px;
+}
+
+.up-space--25 {
+    margin-top: -25px;
+}
+
+.empty-50 {
+    height: 50px;
+}
+
+.empty-150 {
+    height: 150px;
+}
+
+.horizontal-margin-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hma-p p {
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.emphasized {
+    color: #67348F;
+    font-size: 18px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 700;
+}
+
+.display-block {
+    display: block;
+}

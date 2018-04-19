@@ -1,0 +1,362 @@
+/*************/
+/*FOR TABLETS*/
+/*************/
+@media (min-width: 768px) {
+    
+p {
+    font-family: 'Lato', sans-serif;
+    color: #01324C;
+    font-size: 21px;
+}
+
+.main-title {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    color: #1E8BC3;
+    font-size: 40px;
+}
+
+.img-scene {
+    width: 250px;
+}
+
+#IV-carousel .carousel-item {
+    height: 300px;
+}
+
+.carousel-item p {
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    color: #01324C
+}
+
+.carousel-img {
+    width: 350px;
+}
+
+#IV-carousel {
+    width: 450px;
+    height: 350px;
+}
+
+.carousel-indicators {
+    bottom: 0px;
+}
+
+.section-title {
+    font-family: 'Nunito', sans-serif;
+    font-size: 32px;
+    color: #1E8BC3;
+    font-weight: 700;
+}
+
+.section-title-caption {
+    font-family: 'Nunito', sans-serif;
+    font-size: 21px;
+    color: #1E8BC3;
+}
+
+.text-emphasis {
+    font-size: 40px;
+    color: #055580;
+    font-weight: 900;
+}
+
+.section-subtitle {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: #034568;
+    font-weight: 700;
+}
+
+.section-subsubtitle {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: #034568;
+    font-weight: 500;
+}
+
+.img-icon {
+    width: 125px;
+}
+
+.text-label {
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    color: #034568
+}
+
+.btn-choice {
+    width: 125px;
+}
+
+#figure-kangaroo-care, #figure-bear-hug, #figure-joey-position {
+    width: 110px;
+}
+
+#bloodwork-IV-section svg {
+    width: 150px;
+    height: 150px;
+}
+
+
+.btn-link {
+    background-color: #DEF5FD;
+    margin: 0px auto;
+    border-radius: 5px;
+    line-height: 70px;
+    width: 240px;
+    color: #1E8BC3;
+    font-family: 'Lato', sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+.up-space-100 {
+    margin-top: 130px;
+}
+
+.up-space-75 {
+    margin-top: 97.5px;
+}
+
+.up-space-50 {
+    margin-top: 65px;
+}
+
+.up-space-35 {
+    margin-top: 45.5px;
+}
+
+.up-space-25 {
+    margin-top: 32.5px;
+}
+
+.up-space-15 {
+    margin-top: 19.5px;
+}
+
+.up-space-5 {
+    margin-top: 6.5px;
+}
+
+.up-space--5 {
+    margin-top: -6.5px;
+}
+
+.up-space--25 {
+    margin-top: -32.5px;
+}
+
+.empty-50 {
+    height: 65px;
+}
+
+.empty-150 {
+    height: 195px;
+}
+
+
+
+#section-tips-children .first-element, #section-tips-teens .first-element {
+    margin-top: 45.5px;
+}
+
+
+}
+
+
+
+/**************/
+/*FOR DESKTOPS*/
+/**************/
+@media (min-width: 1200px) {
+    
+p {
+    font-family: 'Lato', sans-serif;
+    color: #01324C;
+    font-size: 21px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.main-title {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    color: #1E8BC3;
+    font-size: 48px;
+}
+
+.img-scene {
+    width: 300px;
+}
+
+#IV-carousel .carousel-item {
+    height: 300px;
+}
+
+.carousel-item p {
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    color: #01324C
+}
+
+.carousel-img {
+    width: 400px;
+}
+
+#IV-carousel {
+    width: 550px;
+    height: 400px;
+}
+
+#IV-carousel .carousel-inner {
+    height: 100%;
+}
+
+.carousel-indicators {
+    bottom: 0px;
+}
+
+.section-title {
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    color: #1E8BC3;
+    font-weight: 700;
+}
+
+.section-title-caption {
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    color: #1E8BC3;
+}
+
+.text-emphasis {
+    font-size: 48px;
+    color: #055580;
+    font-weight: 900;
+}
+
+.section-subtitle {
+    font-family: 'Lato', sans-serif;
+    font-size: 27px;
+    color: #034568;
+    font-weight: 700;
+}
+
+.section-subsubtitle {
+    font-family: 'Lato', sans-serif;
+    font-size: 27px;
+    color: #034568;
+    font-weight: 500;
+}
+
+.img-icon {
+    width: 150px;
+}
+
+.text-label {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: #034568
+}
+
+.btn-choice {
+    width: 150px;
+}
+
+
+#figure-kangaroo-care, #figure-bear-hug, #figure-joey-position {
+    width: 120px;
+}
+
+#bloodwork-IV-section svg {
+    width: 175px;
+    height: 175px;
+}
+
+
+.btn-link {
+    background-color: #DEF5FD;
+    margin: 0px auto;
+    border-radius: 5px;
+    line-height: 80px;
+    width: 255px;
+    color: #1E8BC3;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#kangaroo-care-carousel {
+    height: 255px;
+}
+
+
+
+
+
+
+
+
+.up-space-100 {
+    margin-top: 160px;
+}
+
+.up-space-75 {
+    margin-top: 120px;
+}
+
+.up-space-50 {
+    margin-top: 80px;
+}
+
+.up-space-35 {
+    margin-top: 56px;
+}
+
+.up-space-25 {
+    margin-top: 40px;
+}
+
+.up-space-15 {
+    margin-top: 24px;
+}
+
+.up-space-5 {
+    margin-top: 8px;
+}
+
+.up-space--5 {
+    margin-top: -8px;
+}
+
+.up-space--25 {
+    margin-top: -40px;
+}
+
+.empty-50 {
+    height: 80px;
+}
+
+.empty-150 {
+    height: 240px;
+}
+
+
+
+#section-tips-children .first-element, #section-tips-teens .first-element {
+    margin-top: 56px;
+}
+
+
+}
