@@ -3,7 +3,9 @@
 
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1.0">
+
+
 <title>Needle Poke Infographic</title>
 <!--<title>Project Poison Sting (rE)</title>-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -14,13 +16,31 @@
 <script src="SnapSVGAnimator/js/SnapSVGAnimator.min.js"></script>
 <script src="main-script.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Nunito:300,400,600,700,800,900" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="main-style.css">
 <link rel="stylesheet" type="text/css" href="responsive.css">
 </head>
 
+<div class="main-wrapper">
 <body>
-
+  
+    <div class="overlay section-container" id="liability-overlay">
+      <div class="row text-right up-space-25">
+        <div class="col">
+          <p><i class="fas fa-times-circle overlay-close-btn"></i></p>
+        </div>
+      </div>
+      <h1 class="section-title up-space-15">Liability Statement</h1>
+  
+      <p class="up-space-15">The information contained in this multimedia content (the “Multimedia”) is provided on an “as is” basis and is offered for general information and educational purposes only; it is not offered as and does not constitute professional advice.</p>
+      <p class="up-space-15">There is no guarantee about the accuracy, applicability, fitness or completeness of the information found in the Multimedia. This information is provided without warranty of any kind, express or implied, including but not limited to fitness for a particular purpose. The TREKK network members, including the University of Alberta, The University of Manitoba, and each of their agents, employees, and students disclaim responsibility to any party for any loss or damage of any kind that may arise directly or indirectly as a result of the use of or reliance on the information contained in the Multimedia.</p>
+  
+      <div class="row up-space-35"><a href="javascript:void(0);" class="horizontal-margin-auto"><h2 class="btn-link overlay-close-btn">Close</h2></a></div>
+      
+      <div class="empty-50"></div>
+    </div>
+  
   <!--title section-->
   <div class="section-container up-space-50">
     <div class="row">
@@ -36,7 +56,9 @@
     </div>
   </div>
   
-  
+  <!--<i class="fas fa-times-circle"></i>-->
+
+
   <div class="section-divider up-space-50"></div>
 
   
@@ -97,19 +119,19 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="img/carousel/IV-carousel/why-ivy-1.svg" alt="1" class="carousel-img">
-                <p>Some medicines cannot be swallowed. They need to be given directly into the blood.</p>
+                <p>Sometimes medicines cannot be swallowed.</p>
               </div>
               <div class="carousel-item">
                 <img src="img/carousel/IV-carousel/why-ivy-2.svg" alt="2" class="carousel-img">
-                <p>Sometimes medicines given by mouth just isn't strong enough.</p>
+                <p>Sometimes oral doses are not strong enough and medicines need to be given directly into the blood stream.</p>
               </div>
               <div class="carousel-item">
                 <img src="img/carousel/IV-carousel/why-ivy-3.svg" alt="3" class="carousel-img">
-                <p>Sometimes the body needs extra fluids or medications.</p>
+                <p>Sometimes the body needs extra fluids.</p>
               </div>
               <div class="carousel-item">
                 <img src="img/carousel/IV-carousel/why-ivy-4.svg" alt="4" class="carousel-img">
-                <p>Sometimes we need a tiny blood sample for learning what we need to do.</p>
+                <p>Sometimes blood samples are needed for laboratory tests.</p>
               </div>
             </div>
             <!-- Left and right controls -->
@@ -182,8 +204,8 @@
   <div class="section-container up-space-50">
     <div class="row">
       <div class="col">
-        <h1 class="section-title">Age specific solutions</h1>
-        <h3 class="section-title-caption">Click on icons to view</h3>
+        <h1 class="section-title">Age specific tips</h1>
+        <h3 class="section-title-caption">Click an icon to view</h3>
       </div>
     </div>
     
@@ -219,7 +241,7 @@
             </div>
             <div class="col-md-4">
               <img src="img/icon/icon-milk-bottle.svg" alt="Feeding before and after" class="img-icon up-space-35">
-              <h4 class="text-label up-space-5">Start breastfeeding your infant immediately before the procedure and continue during and after.</h4>
+              <h4 class="text-label up-space-5">Start feeding your infant immediately before the procedure and continue during and after.</h4>
             </div>
             <div class="col-md-4">
               <img src="img/icon/icon-bell.svg" alt="Toys" class="img-icon up-space-35">
@@ -266,7 +288,7 @@
             <p class="horizontal-margin-auto">Also called ‘direct skin contact’.</p>
           </div>
           <div class="row">
-            <p class="horizontal-margin-auto">Hold child facing you against your bare chest.</p>
+            <p class="horizontal-margin-auto">Hold your child facing you, against your bare chest.</p>
           </div>
           <div class="row">
             <p class="horizontal-margin-auto">Start the hold 15 minutes before the needle poke.</p>
@@ -291,8 +313,8 @@
       <div class="row">
         <div class="inner-container up-space-15">
           <h2 class="section-subtitle up-space-25">Distractions</h2>
-          <p>Offer fun or positive ways to distract your child from the needle poke.</p>
-          <p>Include your child in deciding the distraction.</p>
+          <p>Offer fun and positive ways to distract your child from the needle poke.</p>
+          <p>Include your child in deciding which distraction would be best. </p>
           <p>Here are some suggestions:</p>
           <div class="row">
             <div class="col-md-4">
@@ -320,14 +342,14 @@
               <h3 class="section-subsubtitle up-space-5 horizontal-margin-auto">The Joey Position</h4>
             </div>
             <div class="row">
-              <div class="col-2"></div>
-              <div class="col-4">
+              <div class="col-4"></div>
+              <div class="col-2 mobile-figure">
                 <img src="img/figure/figure-joey-position.svg" alt="The Joey Position" class="img-figure up-space-15" id="figure-joey-position">
               </div>
-              <div class="col-5 up-space-35">
-                <p>Caregiver sits on bed or chair - child sits on lap facing outwsard</p>
+              <div class="col-3 up-space-35 mobile-figure-text">
+                <p>Caregiver sits on bed or chair - child sits on lap facing outward</p>
               </div>
-              <div class="col-1"></div>
+              <div class="col-3"></div>
             </div>
             
             <div class="row up-space-25">
@@ -340,14 +362,14 @@
               <h3 class="section-subsubtitle up-space-5 horizontal-margin-auto">The Bear Hug</h4>
             </div>
             <div class="row">
-              <div class="col-2"></div>
-              <div class="col-4">
+              <div class="col-4"></div>
+              <div class="col-2 mobile-figure">
                 <img src="img/figure/figure-bear-hug.svg" alt="The Bear Hug" class="img-figure up-space-15" id="figure-bear-hug">
               </div>
-              <div class="col-5 up-space-35">
+              <div class="col-3 up-space-35 mobile-figure-text">
                 <p>Caregiver sits on bed or chair - child straddles chest to chest.<br>(Child faces their caregiver)</p>
               </div>
-              <div class="col-1"></div>
+              <div class="col-3"></div>
             </div>
             
             <div class="row up-space-25">
@@ -388,7 +410,7 @@
             </div>
             <div class="col-md-4">
               <img src="img/icon/icon-music.svg" alt="Music" class="img-icon up-space-35">
-              <h4 class="text-label up-space-5">Distraction helps - maybe bring your favourite tunes!</h4>
+              <h4 class="text-label up-space-5">Distractions help - try listening to your favourite tunes!</h4>
             </div>
           </div>
           
@@ -433,7 +455,7 @@
           <h4 class="text-label horizontal-margin-auto up-space-5">Translating Emergency Knowledge for Kids</h4>
         </div>
         <div ckass="row"><h5 class="text-label link-label horizontal-margin-auto up-space--5">trekk.ca</h5></div>
-        <div class="row"><a href="http://trekk.ca/patientsandfamilies" target="_blank" class="horizontal-margin-auto"><h2 class="btn-link">Open Link</h2></a></div>
+        <div class="row"><a href="http://trekk.ca/patientsandfamilies" target="_blank" class="horizontal-margin-auto"><h2 class="btn-link">View Website</h2></a></div>
         <div class="row up-space-5">
           <p>Trekk is a knowledge mobilization network established to address knowledge gaps in emergency care for children in Canada. TREKK provides access to the latest evidence and user-friendly resources and discussions for parents in pediatric emergency care.</p>
         </div>
@@ -441,8 +463,8 @@
         <div class="row up-space-35">
           <h4 class="text-label horizontal-margin-auto up-space-5">Evidence in Child Health to enhance Outcomes</h4>
         </div>
-        <div class="row"><h5 class="text-label link-label horizontal-margin-auto up-space--5">echo.ualberta.ca</h5></div>
-        <div class="row"><a href="http://www.echo.ualberta.ca" target="_blank" class="horizontal-margin-auto"><h2 class="btn-link">Open Link</h2></a></div>
+        <div class="row"><h5 class="text-label link-label horizontal-margin-auto up-space--5">echokt.ca</h5></div>
+        <div class="row"><a href="http://www.echokt.ca" target="_blank" class="horizontal-margin-auto"><h2 class="btn-link">View Website</h2></a></div>
         <div class="row up-space-5">
           <p>The ECHO research group is focused on improving health outcomes for children with certain health conditions through the application of best available evidence. ECHO develops innovative educational tools to help parents understand their child’s condition better.</p>
         </div>
@@ -451,7 +473,7 @@
           <h4 class="text-label horizontal-margin-auto up-space-5">Alberta Research Centre for Health Evidence (ARCHE)</h4>
         </div>
         <div class="row"><h5 class="text-label horizontal-margin-auto link-label up-space--5">ualberta.ca</h5></div>
-        <div class="row"><a href="https://www.ualberta.ca/pediatrics/pediatric-research/affiliated-research-units/alberta-research-centre-for-health-evidence-arche" target="_blank" class="horizontal-margin-auto"><h2 class="btn-link">Open Link</h2></a></div>
+        <div class="row"><a href="https://www.ualberta.ca/pediatrics/pediatric-research/affiliated-research-units/alberta-research-centre-for-health-evidence-arche" target="_blank" class="horizontal-margin-auto"><h2 class="btn-link">View Website</h2></a></div>
         <div class="row up-space-5">
           <p>The Alberta Research Centre for Health Evidence (ARCHE), located within the Department of Pediatrics at the University of Alberta, was established in 2000 to serve as a resource to individuals and groups interested in using evidence for decision making regarding healthcare.</p>
         </div>
@@ -461,7 +483,7 @@
           <h4 class="text-label horizontal-margin-auto up-space-5">Health Link</h4>
         </div>
         <div class="row"><h5 class="text-label horizontal-margin-auto link-label up-space--5">albertahealthservices.ca</h5></div>
-        <div class="row"><a href="http://www.albertahealthservices.ca/info/Page12630.aspx" target="_blank" class="horizontal-margin-auto"><h2 class="btn-link">Open Link</h2></a></div>
+        <div class="row"><a href="http://www.albertahealthservices.ca/info/Page12630.aspx" target="_blank" class="horizontal-margin-auto"><h2 class="btn-link">View Website</h2></a></div>
         <div class="row up-space-5">
           <p>Do you have question or concern regarding the health of yourself or a child? The Health Link website provides resources that can help answer your question. Can’t find the answer on the site? Dial 811 to talk to a registered nurse to get advice on what to do.</p>
         </div>
@@ -474,6 +496,7 @@
 
 </body>
 
+
 <footer class="section-container up-space-100">
     <div class="row">
       <div class="col">
@@ -483,6 +506,11 @@
     <div class="row">
       <div class="col">
         <p>echokt@ualberta.ca</p>
+      </div>
+    </div>
+    <div class="row up-space-50">
+      <div class="col">
+        <div class="row"><a href="javascript:void(0);" class="horizontal-margin-auto"><h2 class="btn-link btn-wide" id="liability-statement-btn">Liability Statement</h2></a></div>
       </div>
     </div>
     <div class="empty-125"></div>
@@ -504,6 +532,7 @@
     
     <div class="empty-125"></div>    
 </footer>
+</div>
 
 
 

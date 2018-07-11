@@ -53,6 +53,8 @@ function init_buttons () {
     init_buttons_helper("#btn-choice-child", "#choice-list-age-specific", "#section-tips-children");
     init_buttons_helper("#btn-choice-baby", "#choice-list-age-specific", "#section-tips-babies");
     init_buttons_helper("#btn-choice-teen", "#choice-list-age-specific", "#section-tips-teens");
+    init_liability_button();
+    init_overlay_close_button();
 }
 
 function init_buttons_helper (btn_id_name, choice_list_name, section_tips_name) {
@@ -67,6 +69,24 @@ function init_buttons_helper (btn_id_name, choice_list_name, section_tips_name) 
         }
     });
 }
+
+function init_liability_button(){
+    $("#liability-statement-btn").click(function(){
+       console.log("liability button was clicked");
+       $("#liability-overlay").fadeIn();
+       $("body").addClass("scroll-locked");
+    });
+}
+
+function init_overlay_close_button () {
+    $(".overlay-close-btn").click(function(){
+       console.log("overlay close button was clicked");
+       $("#liability-overlay").hide();
+       $("body").removeClass("scroll-locked");
+       $("#liability-statement-btn").get(0).scrollIntoView();
+    });
+}
+
 
 
 
